@@ -2,6 +2,7 @@ body{
   font-family:"Roboto", sans-serif;
   margin:0;
 }
+/**************slideout menu*****************/
 #slideout-menu{
 background-color:cyan;
 display: none;
@@ -60,7 +61,11 @@ border:10px solid black;*/
 }
 
 
-/*bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb*/
+/***************************************slideout menu*********************/
+
+
+
+/***************************nav****************************/
 
 
 nav {
@@ -100,7 +105,7 @@ margin: 0;
 }
 
 .active {
-color: #f783ae;
+color: blue;/*changed*/
 }
 
 #logo-img {
