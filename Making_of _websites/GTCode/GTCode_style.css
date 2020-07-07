@@ -177,7 +177,6 @@ main{
 
 }
 
-
 .section-heading {
   font-size: 32px;
   font-family: "Roboto Condensed", sans-serif;
@@ -248,9 +247,10 @@ color:white;
 }
 
 /* Section Source */
+/*
 #section-source{
   display:block;
-}
+}*/
 
 #section-source p {
   padding: 8px;
