@@ -1,0 +1,82 @@
+body{
+    font-family:"Roboto", sans-serif;
+    margin:0px;
+}
+#slideout-menu{
+    background-color: orange;
+    /*transition:3s,transform 3s;
+    transform:rotate(360deg);*/
+    transition:3s;
+    position:fixed;
+    width:100%;
+    text-align:center;
+    margin-top:10px;
+    opacity:0;
+    z-index:-1;
+}
+#slideout-menu ul{
+    list-style-type:none;
+    padding:32px;
+}
+#slideout-menu li{
+    padding:8px;
+    /*float:right;*/
+}
+#slideout-menu a{
+    color:red;
+    font-size:20px;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+/*-----------nav start------*/
+nav{
+    width:100%;
+    background: rgb(114, 108, 108);
+    display:flex;
+    height:72px;
+    /*height:100%;*/
+    justify-content:space-between;
+    padding:0 16px 0 0;
+
+}
+nav ul{
+    display:flex;
+    /*justify-content:space-between;*/
+    align-items:center;
+    list-style-type:none;
+    margin:0;
+    /*height:72px;*/
+    height:100%;
+    background-color: mediumaquamarine;
+    
+    
+}/*
+nav li{
+    margin-right:20px;
+}
+*/
+nav a{
+    padding-right:30px;
+    
+}
+nav a:hover{
+    color:yellow;
+}
+.active{
+    color:red;
+}
+#logo-img{
+    display:flex;
+    background-color: mediumseagreen;
+    padding:0 32px;
+    align-items:center;
+    color:white;
+    transition:3s;
+}
+/*----------nav end---------*/
