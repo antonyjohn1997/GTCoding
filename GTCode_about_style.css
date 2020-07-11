@@ -44,6 +44,8 @@ nav{
     justify-content:space-between;
     padding:0 16px 0 0;
     position:fixed;
+    /*margin: 0px;*//******************************************************/
+    top:0px;
 
 }
 nav ul{
@@ -131,5 +133,24 @@ nav a:hover{
 /*------------searchbox end---------*/
 
 main{
-    margin: 50px;
+    margin: 100px;
+}
+.page-heading{
+    font-size:30px;
+    font-family:sans-serif;
+    border-left:3px solid red;
+    border-right:3px solid red;
+    transition:3s;
+    margin-top:120px;
+    padding:10px 30px;
+    display:inline-block;
+    /*display:block;
+    display:flex;*/
+    background-color: gold;
+    /*width:250px;*/
+   /* margin-left:100px;*/
+}
+.page-heading:hover{
+    background-color: navy;
+    padding:0px 50px;
 }
