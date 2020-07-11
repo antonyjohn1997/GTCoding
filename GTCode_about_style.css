@@ -112,6 +112,11 @@ nav a:hover{
     align-items:center;
     width:100%;
 }
+#menu-icon:hover{
+    color:red;
+    background-color: cyan;
+    transition:2s;
+}
 #search-icon{
     color:green;
     padding-right:30px;
