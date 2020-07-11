@@ -128,4 +128,8 @@ nav a:hover{
     width:100%;
     height:48px;
 }
-/*------------searchbox end--------->
+/*------------searchbox end---------*/
+
+main{
+    margin: 50px;
+}
