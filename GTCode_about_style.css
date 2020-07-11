@@ -43,6 +43,7 @@ nav{
     /*height:100%;*/
     justify-content:space-between;
     padding:0 16px 0 0;
+    position:fixed;
 
 }
 nav ul{
@@ -106,3 +107,25 @@ nav a:hover{
     color:red;
 }
 /*----------nav end---------*/
+
+/*-----------searchbox............*/
+
+#searchbox{
+    position:fixed;
+    background-color: deeppink;
+    height:100px;
+    width:500px;
+    right:0;
+    top:24px;
+}/*
+#searchboxx{
+    position:fixed;
+    background-color: firebrick;
+    height:500px;
+    width:500px;
+}*/
+#searchbox input{
+    width:100%;
+    height:48px;
+}
+/*------------searchbox end--------->
