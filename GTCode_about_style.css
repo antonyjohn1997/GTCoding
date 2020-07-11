@@ -154,3 +154,6 @@ main{
     background-color: navy;
     padding:0px 50px;
 }
+#post-container{
+    display:flex;
+}
