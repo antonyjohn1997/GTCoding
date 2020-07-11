@@ -78,5 +78,23 @@ nav a:hover{
     align-items:center;
     color:white;
     transition:3s;
+    height:100%;/*////*/
+}
+#logo-img img{
+    height:100px;
+}
+#logo-img:hover{
+    background-color: brown;
+}
+#menu-icon{
+    font-size:28px;
+    background-color: chartreuse;
+    padding:0 14px;
+    height:100%;
+    width:100%;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+
 }
 /*----------nav end---------*/
