@@ -86,4 +86,18 @@ nav a:hover{
 #logo-img:hover{
     background-color: aqua;
 }
+#menu-icon{
+    background-color: crimson;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+#search-icon{
+    color:green;
+    padding-right:30px;
+}
+#search-icon:hover{
+    color:red;
+}
 /*----------nav end---------*/
