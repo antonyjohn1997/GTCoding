@@ -78,5 +78,12 @@ nav a:hover{
     align-items:center;
     color:white;
     transition:3s;
+    height:100%;
+}
+#logo-img img{
+    height:100px;
+}
+#logo-img:hover{
+    background-color: aqua;
 }
 /*----------nav end---------*/
