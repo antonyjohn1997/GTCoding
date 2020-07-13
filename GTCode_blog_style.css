@@ -9,3 +9,34 @@ a{
 a:hover{
     text-decoration:underline;
 }
+/********************slideout-menu*****************/
+#slideout-menu{
+    width:100%;
+    height:;/******************/
+    display:;
+    background-color: yellow;
+    text-align:center;
+    pointer-events:none;
+    margin-top:72px;
+    opacity:0;
+    transition:3s;
+    z-index:100;/************************/
+    position:fixed;
+}
+#slideout-menu ul{
+    list-style-type:none;
+    background-color: chartreuse;
+    padding:20px 20px;
+}
+#slideout-menu a{
+    font-size:20px;
+    font-family:"Roboto Condesed", sans-serif;
+    color:white;
+}
+#slideout-menu input{
+    background-color: coral;
+    width:85%;
+    padding:10px;
+    text-align:center;
+    font-size:20px;
+}
