@@ -58,7 +58,8 @@ nav{
 }
 nav a{
     color:black;
-    /*padding:0 30px;*/
+    padding:0 30px;
+    
 }
 nav a:hover{
     color:blue;
@@ -68,11 +69,14 @@ nav ul{
     display:flex;
     /*justify-content:space-between;
     justify-content:flex-start;
-    not working 
+     j-c not working so we add padding in nav a
     */
     align-items:center;
     list-style-type:none;
     margin:0;
     height:100%;
     background-color: powderblue;
+}
+.active{
+    color:blue;
 }
