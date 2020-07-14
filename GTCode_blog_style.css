@@ -128,3 +128,22 @@ nav ul{
     height:48px;
     width:100%;
 }
+main{
+    margin-left:50px;
+
+}
+.page-heading{
+    font-size:20px;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    padding:0 30px;
+    display:inline-block;
+    margin-top:102px;
+    transition:1s;
+}
+.page-heading:hover{
+    color:greenyellow;
+    background-color: red;
+    padding:5px 50px;
+
+}
