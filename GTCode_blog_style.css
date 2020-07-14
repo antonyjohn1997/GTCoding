@@ -147,3 +147,57 @@ main{
     padding:5px 50px;
 
 }
+/**************section**************/
+section{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.card-image{
+    transition:3s;
+}
+.card-image img:hover{
+    /*box-shadow:1px 1px blue;*/
+    box-shadow: 0 10px 6px -6px #777;
+}
+.card-image img{
+    width:500px;
+}
+.card-description{
+    padding:0 8px;
+}
+.card-meta{
+    color:blue;
+    padding:16px;
+    font-family:'Roboto Slab', serif;
+    font-size:14px;
+
+
+}
+.card-meta a{
+    color:grey;
+}
+.btn-readmore{
+    color:black;
+    /*border-right:2px solid black;
+    border-left:2px solid black;*/
+    padding:8px 24px;
+    border:3px solid black;
+    margin-bottom:4px;
+    /*m-b working only when display is inline block */
+    margin-left:54px;
+    background-color: lightblue;
+    font-weight:bold;
+    cursor:pointer;
+    display:inline-block;
+    transition:2s;
+
+}
+.btn-readmore:hover{
+    background-color: red;
+    padding:8px 64px 8px 24px;
+    color:white;
+    text-decoration:none;
+}
+
+
