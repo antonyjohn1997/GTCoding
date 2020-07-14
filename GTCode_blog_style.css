@@ -40,3 +40,43 @@ a:hover{
     text-align:center;
     font-size:20px;
 }
+/*******************#slideout-menu closed*********************/
+
+/******************************nav*********************/
+nav{
+    background-color: palevioletred;
+    width:100%;
+    font-family:"Roboto Condenced",sans-serif;
+    display:flex;
+    justify-content:space-between;
+    padding:0 16px 0 0;
+    font-size:20px;
+    height:72px;
+    z-index:;
+    position:;
+
+}
+nav a{
+    color:black;
+    padding:0 30px;
+    
+}
+nav a:hover{
+    color:blue;
+    text-decoration:none;
+}
+nav ul{
+    display:flex;
+    /*justify-content:space-between;
+    justify-content:flex-start;
+     j-c not working so we add padding in nav a
+    */
+    align-items:center;
+    list-style-type:none;
+    margin:0;
+    height:100%;
+    background-color: powderblue;
+}
+.active{
+    color:blue;
+}
