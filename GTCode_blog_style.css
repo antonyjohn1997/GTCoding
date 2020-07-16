@@ -150,8 +150,9 @@ main{
 /**************section**************/
 section{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap:wrap;
+    
 }
 .card-image{
     transition:3s;
@@ -162,9 +163,15 @@ section{
 }
 .card-image img{
     width:500px;
-}
-.card-description{
+}/*
+.card-description p{
     padding:0 8px;
+    width:200px;
+}*/
+.card-description {
+    width:500px;
+    background-color: lightgreen;
+    padding:8px 0;
 }
 .card-meta{
     color:blue;
@@ -199,5 +206,7 @@ section{
     color:white;
     text-decoration:none;
 }
-
+.card{
+    padding:0 8px;
+}
 
