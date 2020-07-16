@@ -212,3 +212,23 @@ section{
 p{
     line-height:1.5;
 }
+
+/************************pagination******************/
+.pagination{
+    /*background-color: lightslategrey;*/
+    text-align:center;
+    font-weight:bold;
+    padding:8px;
+
+}
+.pagination a{
+    border-top:3px solid red;
+    padding:8px 16px;
+    /*background-color: lightskyblue;*/
+    transition:3s;
+    display:inline-block;
+}
+.pagination a:hover{
+    /*text-decoration:none;*/
+    border-top:3px solid black;
+}
