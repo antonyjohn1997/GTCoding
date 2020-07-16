@@ -209,4 +209,6 @@ section{
 .card{
     padding:0 8px;
 }
-
+p{
+    line-height:1.5;
+}
