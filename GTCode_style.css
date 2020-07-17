@@ -129,6 +129,7 @@ height: 100px;
 background: black;
 }
 
+
 #menu-icon {
 height: 100%;
 font-size: 28px;
@@ -178,7 +179,7 @@ width: 100%;
 /*......  main....... */
 main{
 /*margin-left: 30px;*/
-margin-left:50px;
+margin:0 100px;
 
 
 }
@@ -206,10 +207,13 @@ justify-content:space-around;
 transition:1s;
 background-color: darkcyan;
 }
+
 .card-image:hover{
 box-shadow:5px 5px red;
 }
-
+.card-image img{
+  width:500px;
+}
 
 .card,.card-description {
 padding: 0 8px;
