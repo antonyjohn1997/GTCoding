@@ -1,7 +1,7 @@
-const menuIcon = document.getElementById("menu-icon");
-const slideoutMenu = document.getElementById("slideout-menu");
-const searchIcon = document.getElementById("search-icon");
-const searchBox = document.getElementById("searchbox");
+ menuIcon = document.getElementById("menu-icon");
+ slideoutMenu = document.getElementById("slideout-menu");
+ searchIcon = document.getElementById("search-icon");
+ searchBox = document.getElementById("searchbox");
 
 searchIcon.addEventListener('click', function () {
   if (searchBox.style.top == '72px') {

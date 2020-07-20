@@ -175,7 +175,7 @@ section{
     width:250px;
 }*/
 .card-image img{
-    width:900px;/*if section { display:flex;j-c:s-a;flex-wrap:wrap;} then 
+    width:500px;/*if section { display:flex;j-c:s-a;flex-wrap:wrap;} then 
     .card-image img and .card-description width:500px;*/
 }
 /*
@@ -381,4 +381,13 @@ footer #right-footer{
       color: black;
       transition: 0.4s;
     }
+  }
+  /*****************************************************/
+  @media (min-width:1000px){
+      nav ul{
+          display:flex;
+      }
+      #logo-img:hover{
+          background-color: limegreen;
+      }
   }
